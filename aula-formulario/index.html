@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Envio de email</title>
+</head>
+<body>
+  <main class="main-container">
+    <div class="form-container">
+      <h1 class="form-title">Formulário de contato</h1>
+      <form method="POST" class="form" action="https://api-send-email-m9xz.onrender.com/gildembergleite@gmail.com">
+        <div class="form-group">
+          <label class="form-label" for="name">Nome</label>
+          <input class="form-input" id="name" type="text" placeholder="Seu nome" name="name" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">Email</label>
+          <input class="form-input" id="email" type="email" placeholder="exemplo@email.com" name="email" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="subject">Assunto</label>
+          <select class="form-input" id="subject" name="subject">
+            <option value="" disabled selected>Selecione um assunto</option>
+            <option value="Contato">Contato</option>
+            <option value="Orçamento">Orçamento</option>
+            <option value="Outros">Outros</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="message">Mensagem</label>
+          <textarea class="form-textarea" id="message" placeholder="Mensagem" rows="8" name="message"></textarea>
+        </div>
+        <div class="form-footer">
+          <input class="form-button" type="submit" value="Enviar" />
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.full-container, .main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.full-container {
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.main-container {
+  height: 100%;
+}
+
+.carousel-container {
+  width: 75%;
+}
+
+footer {
+  height: 100px;
+}

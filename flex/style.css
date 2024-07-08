@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  background-color: darkblue;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+}

@@ -1,0 +1,25 @@
+p {
+  background-color: chocolate;
+}
+
+p {
+  color: red;
+  font-size: 20px;
+}
+
+p {
+  color: blue;
+}
+
+.section > p {
+  color: cyan;
+  font-size: 10px;
+}
+
+section p {
+  color: violet;
+}
+
+.segunda-div p {
+  color: chartreuse;
+}
